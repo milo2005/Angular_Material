@@ -1,0 +1,9 @@
+.center-crop{
+  background-repeat: no-repeat;
+  background-position:center;
+  background-size:cover;
+}
+
+.material-icons.light{
+  color:rgba(255,255,255,0.8);
+}
