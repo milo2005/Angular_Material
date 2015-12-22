@@ -1,4 +1,6 @@
-app.controller("MainController",function(){
+app.controller("MainController",function($scope){
+
+  $scope.isLogged = false;
 
   $scope.movies=[{cs:2,rs:2,name:'Intensamente', img:'http://entretenimiento.starmedia.com/imagenes/2015/06/intensamente-taquilla.jpg'}
     ,{cs:2,rs:1,name:'C.I.P.O', img:'http://www.cineforever.com/wp-content/uploads/2015/09/El-agente-de-C.I.P.O.L..jpg'}
